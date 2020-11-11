@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<div style="height: auto; width: 100%; border-bottom: 1px solid blue; text-align : right;">
+		<a href="find.html">룸메이트 찾기 </a>
+		<a href="enrollment.html"> 룸메이트 등록 </a>
+		<a href="notice.html"> 공지사항 </a>
+		<a href="mypage.html"> 마이페이지 </a>
+		<a href="login.html"> 로그인 </a>
+	</div>
+	<br>
+	<h2>프로필 설정</h2>
+	<div style="height:auto; width:100%; border:1px solid black">
+		<div style="height:auto; width:45%; float : left; margin-right:10px">
+		<div style="height:auto; width:30%; border:1px solid black">이미지</div><br>
+		<div style="height:auto; width:30%; border:1px solid black">닉네임</div>
+		<div style="height:auto; width:30%; border:1px solid black">자기소개</div>
+		</div>
+		
+	<div style="height=auto; width : 45%; float : left">
+		<form action="" method="post">
+			직업 <select id="job"> 
+				<option selected>선택</option> 
+					<option>대학생</option> 
+					<option>대학원생</option>
+					<option>취업준비생</option>
+					<option>직장인</option>
+					<option>프리랜서</option> 
+			</select><br>
+			
+			성향 <select id="tendency"> 
+				<option selected>선택</option> 
+					<option>외향적</option> 
+					<option>적극적</option>
+					<option>집순이</option>
+					<option>내향적</option>
+					<option>조용한</option>
+					<option>깔끔한</option> 
+			</select><br>
+			
+			희망 지역 <select id="region"> 
+				<option selected>선택</option> 
+					<option>공란</option> 
+			</select><br>
+			
+			희망 입주일 <input type="date"><br>
+			
+			흡연 여부 <select id="smoking"> 
+				<option selected>선택</option> 
+					<option>흡연자</option>
+					<option>비흡연자</option> 
+				</select><br>
+				
+			반려동물 <select id="pet"> 
+				<option selected>선택</option> 
+					<option>키운다</option>
+					<option>안키운다</option> 
+				</select><br>
+				
+			<input type="button" value="확인">
+		</form>
+	</div>
+	</div>
+</body>
+</html>
