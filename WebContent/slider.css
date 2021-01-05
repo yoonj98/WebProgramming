@@ -1,0 +1,43 @@
+@charset "EUC-KR";
+
+.slider {
+  list-style:none;
+  overflow:hidden;
+}
+.slider:after {
+  content:'';
+  display:block;
+  clear:both;
+  
+}
+.slider li {
+  position:relative;
+  top:-25%;
+  left:0;
+  width:100%;
+  height:500px;
+  opacity:0;  
+}
+.slider li div {
+  height:100%;
+  background-size:cover;
+  position:relative;
+}
+.slider li dl {
+  position:relative;
+  top:50%;
+  transform:translateY(-50%);
+}
+
+.btn {
+  text-align:center;
+  
+}
+.btn button {
+  margin-top:10px;
+  border:1px solid #ccc;
+  background-color:#fff;
+  color:#666;
+  font-size:1.5rem;
+  cursor:pointer;
+}

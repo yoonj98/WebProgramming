@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+#st1 {
+color : black;
+font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#loginbox{
+   display: inline;
+    width: 46%;
+    margin: 0;
+}
+#devise #join .content .login-wrapper.email-login-wrapper .email-input {
+    display: inline;
+    width: 46%;
+    margin: 0;
+}
+
+.user_table, .house_table {
+    text-align: left;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.column-title {
+    float: left;
+    width: 30%;
+    height: 3rem;
+    line-height: 3rem;
+    padding: 0 1rem;
+    background-color: #F5F3F1;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    border-color: #E9E9E9;
+    color: #808080;
+    box-sizing: border-box;
+    text-align:center;
+}
+
+.column-contents {
+    float: left;
+    height: 3rem;
+    line-height: 3rem;
+    padding: 0 1rem;
+    background-color: #FFF;
+    border-width: 1px 1px 1px 1px;
+    border-style: solid;
+    border-color: #E9E9E9;
+    box-sizing: border-box;
+    text-align:center;
+}
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+form{
+   display:inline;
+   margin:0px;
+   padding:0px;
+}
+
+fieldset {
+   padding: 0 1em 1em 1em;
+}
